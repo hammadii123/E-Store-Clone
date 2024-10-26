@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.child {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.child ul {
+  display: flex;
+  gap: 50px;
+}
+.child ul li {
+  list-style: none;
+  gap: 50px;
+}
+.child ul .list1 {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.body1 {
+  height: 632px;
+  background-color: #211C24;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+}
+.body1 .head1 {
+  font-size: 96px;
+  color: white;
+  font-weight: 300;
+}
+.body1 .head1 span {
+  font-weight: 500;
+}
+.body1 .text1 {
+  color: white !important;
+}
+.body1 .para1 {
+  font-size: 25px;
+  color: #909090;
+  font-weight: 400;
+}
+.body1 .btn1 {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: white;
+  width: 190px;
+  height: 56px;
+  border-radius: 5px;
+}
+
+.body2 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+.body2 .leftSide2 {
+  width: 50%;
+}
+.body2 .leftSide2 .childLeft1 {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 328px;
+}
+.body2 .leftSide2 .childLeft2 {
+  width: 100% !important;
+  display: flex;
+  align-items: center;
+}
+.body2 .leftSide2 .subLeft2 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  gap: 50px;
+}
+.body2 .leftSide2 .subRight2 {
+  width: 50%;
+  gap: 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: #353535;
+  height: 275px;
+}
+.body2 .leftSide2 .subRight2 .innerLeft2 {
+  align-content: center;
+}
+.body2 .leftSide2 .subRight2 .innerRight2 {
+  height: 100%;
+  align-items: center;
+  align-content: center;
+}
+.body2 .leftSide2 .subRight2 .innerRight2 h3 {
+  color: white;
+}
+.body2 .leftSide2 .subRight2 .innerRight2 h3 span {
+  font-weight: 700;
+}
+.body2 .leftSide2 .subRight2 .innerRight2 p {
+  color: #909090;
+}
+
+.rightSide2 {
+  width: 50%;
+}
+.rightSide2 .card1 {
+  background-color: #EDEDED;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+.rightSide2 .card1 img {
+  width: 292px;
+  height: 500px;
+}
+.rightSide2 .card1 button {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  width: 190px;
+  height: 56px;
+  border-radius: 5px;
+}
+.rightSide2 .card1 .card-text {
+  padding: 50px;
+  gap: 17px;
+  display: flex;
+  flex-direction: column;
+}
+.rightSide2 .card1 .card-text h3 {
+  font-size: 64px;
+  font-weight: 300;
+}
+.rightSide2 .card1 .card-text h3 span {
+  font-weight: 600;
+}
+
+.body3 {
+  background-color: #FAFAFA;
+  margin: 0;
+}
+
+.head3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.parentCard {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin-top: 60px;
+}
+.parentCard .cards {
+  background-color: #EDEDED;
+  width: 160px;
+  height: 128px;
+  border-radius: 10px;
+}
+.parentCard .cards .cardbody {
+  justify-items: center;
+  align-items: column;
+  align-items: center;
+  align-content: center;
+  align-self: auto;
+  margin: auto;
+  display: flow;
+  height: 100%;
+}
+.parentCard .cards .align {
+  text-align: center;
+}
+
+.body4 .head4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.body4 .head4 ul {
+  display: flex;
+  gap: 40px;
+}
+.body4 .head4 ul li {
+  list-style-type: none;
+}
+.body4 .cardParent2,
+.body4 .cardParent3 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.body4 .cardParent2 .cards2,
+.body4 .cardParent3 .cards2 {
+  width: 268px;
+  height: 432px;
+}
+.body4 .cardParent2 .cards2 .card,
+.body4 .cardParent3 .cards2 .card {
+  background-color: #F6F6F6;
+  padding: 12px;
+}
+.body4 .cardParent2 .cards2 .card img,
+.body4 .cardParent3 .cards2 .card img {
+  padding: 10px;
+}
+.body4 .cardParent2 .cards2 .card .card-body,
+.body4 .cardParent3 .cards2 .card .card-body {
+  justify-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.body4 .cardParent2 .cards2 .card .card-body .btn,
+.body4 .cardParent3 .cards2 .card .card-body .btn {
+  width: 100%;
+  height: 48px;
+}
+.body4 .cardParent2 .cards2 .icon,
+.body4 .cardParent3 .cards2 .icon {
+  justify-content: end;
+  display: flex;
+}
+
+.cardParent3 {
+  margin-top: 120px;
+}
+
+.cardParent5 {
+  margin-top: 130px;
+}
+
+.body5 {
+  display: flex;
+}
+.body5 .cardParent5 {
+  width: 350px;
+}
+.body5 .cardParent5 .cards2 {
+  width: 335px !important;
+}
+.body5 .cardParent5 .cards2 .card {
+  width: 335px !important;
+}
+.body5 .cardParent5 .cards2 .card .img1 {
+  height: 335px;
+}
+.body5 .cardParent5 .cards2 .card .card-body p {
+  color: #909090;
+}
+.body5 .cardParent5 .cards2 .card3 {
+  background-color: #EAEAEA;
+}
+.body5 .cardParent5 .cards2 .card4 {
+  background-color: #2C2C2C;
+}
+.body5 .cardParent5 .cards2 .card4 .card-body {
+  color: white;
+}
+.body5 .cardParent5 .cards2 .card4 .card-body p {
+  color: #909090;
+}
+.body5 .cardParent5 .cards2 .card4 .card-body .btn4 {
+  color: white;
+}
+
+.body6 .head6 ul {
+  display: flex;
+  justify-content: space-around;
+}
+.body6 .head6 ul li {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .body1 .leftSide1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    align-items: center;
+    text-align: center;
+    padding: 5%;
+  }
+  .body1 .leftSide1 .btn1 {
+    width: 100%;
+  }
+  .rightSide1 {
+    display: none;
+  }
+  .body2 {
+    margin-bottom: 775px;
+    flex-direction: column;
+  }
+  .body2 .leftSide2 {
+    width: 100%;
+  }
+  .body2 .leftSide2 .childLeft2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .body2 .leftSide2 .childLeft2 .subLeft2 {
+    width: 100%;
+  }
+  .body2 .leftSide2 .childLeft2 .subRight2 {
+    width: 100%;
+  }
+  .body2 .rightSide2 {
+    width: 100%;
+  }
+  .body2 .rightSide2 .card1 .card-text {
+    width: 50%;
+    padding: 0;
+    padding: 20px;
+  }
+  .body2 .rightSide2 .card1 .card-text button {
+    width: 200%;
+  }
+  .body2 .rightSide2 .card1 img {
+    width: 50%;
+    height: 50%;
+  }
+  .body2 .subLeft1 {
+    width: 50%;
+    height: 100%;
+  }
+  .body2 .subLeft1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .body2 .subRight1 {
+    width: 50%;
+  }
+  .body3 {
+    margin-top: 737px;
+  }
+  .body3 .head3 h1 {
+    font-size: 20px;
+  }
+  .body3 .head3 img {
+    width: 50px;
+  }
+  .parentCard {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+.body4 .scrollContainer {
+  overflow-x: auto;
+  padding: 10px;
+  white-space: nowrap;
+}
+.body4 .scrollContainer .cardParent2 {
+  display: flex;
+  gap: 100px;
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+.body4 .scrollContainer .cardParent2 .cards2 .cards2 {
+  flex-shrink: 0; /* Prevents cards from shrinking */
+}/*# sourceMappingURL=style.css.map */
